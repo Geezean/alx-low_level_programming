@@ -14,6 +14,7 @@ int squareroot(int n, int r)
 	else if (r * r > n)
 		return (-1);
 	return (squareroot(n, r + 1));
+}
 
 /**
  * _sqrt_recursion - returns the natural square root of a number
